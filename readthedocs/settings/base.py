@@ -181,7 +181,6 @@ INSTALLED_APPS = [
     'restapi',
     'privacy',
 
-    # allauth
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
