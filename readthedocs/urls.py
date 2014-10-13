@@ -118,6 +118,7 @@ urlpatterns = patterns(
     url(r'^mlt/(?P<project_slug>[-\w]+)/(?P<filename>.*)$',
         'core.views.morelikethis',
         name='morelikethis'),
+    url(r'^bookmarks/', include('bookmarks.urls')),
 
 )
 
