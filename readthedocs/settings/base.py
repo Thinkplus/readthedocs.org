@@ -180,6 +180,7 @@ INSTALLED_APPS = [
     'rtd_tests',
     'restapi',
     'privacy',
+    'bookmarks',
 
     # allauth
     'allauth',
